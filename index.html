@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>café de paris</title>
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/ress.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vci5yiz.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pax0uml.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <header>
+            <!-- 960px以下の時にハンバーガーメニュー -->
+            <!-- ハンバーガーメニュー開閉ボタン -->
+            <div class="hamburger__menu__btn" id="js__hamburger">
+                <span class="hamburger__menu__ber hamburger__menu__ber1"></span>
+                <span class="hamburger__menu__ber hamburger__menu__ber2"></span>
+                <span class="hamburger__menu__ber hamburger__menu__ber3"></span>
+                <span class="hamburger__menu__text hamburger__text">MENU</span>
+                <span class="hamburger__menu__close hamburger__text">CLOSE</span>
+            </div>
+            <!-- ハンバーガーメニュー -->
+            <div class="hamburger__menu">
+                <div><a href="#content1" class="hamburger__menu__item">HOME</a></div>
+                <div><a href="#content2" class="hamburger__menu__item">ABOUT</a></div>
+                <div><a href="#content3" class="hamburger__menu__item">NEWS</a></div>
+                <div><a href="#content4" class="hamburger__menu__item">MENU</a></div>
+                <div><a href="#content5" class="hamburger__menu__item">ACCESS</a></div>
+            </div>
+        </header>
+
+        <!-- 960px以上のメニュー -->
+        <header class="header__wrapper">
+            <nav class="header___navigation">
+                <ul class="header___navigation__article">
+                    <li class="header__title">
+                        <a href="index.html" class="switch__content">
+                            <img src="./images/main-logo-black.png" alt="main-logo-black">
+                        </a>
+                    </li>
+                    <li><a href="#content1" data-hover-text="ホーム" class="switch__content">HOME</a></li>
+                    <li><a href="#content2" data-hover-text="カフェについて" class="switch__content">ABOUT</a></li>
+                    <li><a href="#content3" data-hover-text="ニュース" class="switch__content">NEWS</a></li>
+                    <li><a href="#content4" data-hover-text="メニュー" class="switch__content">MENU</a></li>
+                    <li><a href="#content5" data-hover-text="アクセス" class="switch__content">ACCESS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- メインビジュアル -->
+        <div class="background " id="content1">
+            <div class="background__image swiper-container">
+                <div class="background__image__slideshow swiper-wrapper">
+                    <!-- メインビジュアルスライダー -->
+                    <img class="active swiper-slide" src="./images/hero-image1.jpg" alt="hero-image1">
+                    <img src="./images/hero-image2.jpg" alt="hero-image2" class="swiper-slide">
+                    <img src="./images/hero-image3.jpg" alt="hero-image3" class="swiper-slide">
+                    <img src="./images/hero-image4.jpg" alt="hero-image4" class="swiper-slide">
+                </div>
+            </div>
+        </div>
+        <div class="main__logo">
+            <img src="./images/main-logo-white.png" alt="main-logo-white">
+        </div>
+        <!-- スクロールダウン -->
+        <div class="scroll">
+            <span class="scroll__text">Scroll</span>
+        </div>
+
+        <!-- メインコンテンツ -->
+        <!-- アバウト -->
+        <article class="main__wrapper">
+            <section class="about" id="content2">
+                <div class="about__wrapper">
+                    <div class="about__image">
+                        <img src="./images/about-image1.jpg" alt="about-image1" class="about__img__01">
+                        <img src="./images/about-image2.jpg" alt="about-image2" class="about__img__02">
+                    </div>
+                    <div class="about__text">
+                        <h2 class="about__header js__text__effect js__split__text">ABOUT</h2>
+                        <div class="about__text__body">
+                            <div>
+                                <p>早朝6時からオープン。</p>
+                                <p>ランチタイムは、定番のパスタやカレーなどの<br>日替わりランチがおすすめ。</p>
+                                <p>西新宿だから交通の便もよく<br>お集まり・ショッピングなどにも最適。</p>
+                                <p>お二人だけのランチタイムにいかがですか。</p>
+                            </div>
+                        </div>
+                        <div class="button about__button">
+                            <a href="#">
+                                <span class="text">View more</span>
+                                <span class="line -right"></span>
+                                <span class="line -top"></span>
+                                <span class="line -left"></span>
+                                <span class="line -bottom"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ニュース -->
+            <section class="news" id="content3">
+                <div class="news__wrapper">
+                    <h2 class="news__header js__text__effect js__split__text">NEWS</h2>
+                    <ul class="news__list">
+                        <li class="news__item news__item1">
+                            <a href="#">
+                                <img src="./images/news-img1.jpg" alt="news-img1">
+                                <div class="item__date">2023.11.11</div>
+                                <div class="item__text">新規サイトオープン企画　Webサイトを見て特製ケーキをもらおう !</div>
+                            </a>
+                        </li>
+                        <li class="news__item news__item2">
+                            <a href="#">
+                                <img src="./images/news-img2.jpg" alt="news-img2">
+                                <div class="item__date">2023.11.08</div>
+                                <div class="item__text">新作マカロン登場 ! !</div>
+                            </a>
+                        </li>
+                        <li class="news__item news__item3">
+                            <a href="#">
+                                <img src="./images/news-img3.jpg" alt="news-img3">
+                                <div class="item__date">2023.11.01</div>
+                                <div class="item__text">【お知らせ】11月の営業時間に関しまして</div>
+                            </a>
+                        </li>
+                        <li class="news__item news__item4">
+                            <a href="#">
+                                <img src="./images/news-img4.jpg" alt="news-img4">
+                                <div class="item__date">2023.11.01</div>
+                                <div class="item__text">お待たせ致しました !　カフェ・ド・パリWebサイトをオープン致しました。</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="button news__button">
+                        <a href="#">
+                            <span class="text">View more</span>
+                            <span class="line -right"></span>
+                            <span class="line -top"></span>
+                            <span class="line -left"></span>
+                            <span class="line -bottom"></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- メニュー -->
+            <section class="menu" id="content4">
+                <div class="menu__wrapper">
+                    <h2 class="menu__header js__text__effect js__split__text">MENU</h2>
+                    <!-- メイン -->
+                    <div class="menu__main__article">
+                        <h3 class="js__text__effect js__split__text">MAIN</h3>
+                        <div class="menu__main__grid">
+                            <div class="menu__main__image menu__main__image1">
+                                <img src="./images/food__image__1.jpg" alt="/images/food__image__1">
+                                <p>赤と緑のペペロンチーノ</p>
+                                <p>Red &amp; Green Peperoncino</p>
+                                <p>&yen;９００（税込&yen;９９０）</p>
+                            </div>
+                            <div class="menu__main__image menu__main__image2">
+                                <img src="./images/food__image__2.jpg" alt="/images/food__image__2">
+                                <p>トマトのスパゲッティー</p>
+                                <p>Tomato spaghetti</p>
+                                <p>&yen;９００（税込&yen;９９０）</p>
+                            </div>
+                            <div class="menu__main__image menu__main__image3">
+                                <img src="./images/food__image__3.jpg" alt="/images/food__image__3">
+                                <p>カフェ・ド・パリのピッツァ</p>
+                                <p>Pizza Café de paris</p>
+                                <p>&yen;１２００（税込&yen;１３２０）</p>
+                            </div>
+                            <div class="menu__main__image menu__main__image4">
+                                <img src="./images/food__image__4.jpg" alt="/images/food__image__4">
+                                <p>特製トマトカレーライス</p>
+                                <p>Tomato curry</p>
+                                <p>&yen;９００（税込&yen;９９０）</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- デザート -->
+                    <div class="menu__dessert__article">
+                        <h3 class="js__text__effect js__split__text">DESSERT</h3>
+                        <div class="menu__dessert__grid">
+                            <div class="menu__dessert__image menu__dessert__image1">
+                                <img src="./images/dessert-image1.jpg" alt="dessert-image1">
+                                <p>Mont Blanc</p>
+                                <p>特製モンブラン</p>
+                                <p>&yen;５００（税込&yen;５５０）</p>
+                            </div>
+                            <div class="menu__dessert__image menu__dessert__image2">
+                                <img src="./images/dessert-image2.jpg" alt="dessert-image2">
+                                <p>Short Cake</p>
+                                <p>特製ショートケーキ</p>
+                                <p>&yen;５００（税込&yen;５５０）</p>
+                            </div>
+                            <div class="menu__dessert__image menu__dessert__image3">
+                                <img src="./images/dessert-image3.jpg" alt="dessert-image3">
+                                <p>Macaron &amp; Milk tea</p>
+                                <p>マカロンとミルクティーのセット</p>
+                                <p>&yen;８００（税込&yen;８８０）</p>
+                            </div>
+                            <div class="menu__dessert__image menu__dessert__image4">
+                                <img src="./images/dessert-image4.jpg" alt="dessert-image4">
+                                <p>Original Pancake</p>
+                                <p>特製パンケーキ</p>
+                                <p>&yen;７００（税込&yen;７７０）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button menu__button">
+                        <a href="#">
+                            <span class="text">View more</span>
+                            <span class="line -right"></span>
+                            <span class="line -top"></span>
+                            <span class="line -left"></span>
+                            <span class="line -bottom"></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- アクセス -->
+            <section class="access" id="content5">
+                <div class="access__wrapper">
+                    <h2 class="access__header js__text__effect js__split__text">ACCESS</h2>
+                    <div class="access__article">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4038416388016!2d139.69441357589253!3d35.69167857258395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188db4f3887ae7%3A0x3d4f3619214cc0ea!2z44Kz44Kv44O844Oz44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1700310756782!5m2!1sja!2sjp"
+                            width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="access__information">
+                            <img src="./images/main-logo-black.png" alt="access-main-logo-black">
+                            <div class="access__information__ptag__article">
+                                <p>OPEN：<br>6:00 〜 22:00（不定休）</p>
+                                <p>TEL：<br>03-3344-1010</p>
+                                <p>FAX：<br>03-3344-3001</p>
+                                <p>〒160-0023<br>東京都新宿区西新宿1-7-3 総合校舎コクーンタワー1階</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </article>
+
+        <footer class="footer">
+            <div>
+                <p><span>&copy;Café de paris All Rights Reserved.</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- adobe-font A-OTF -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'fte3kru',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <!-- ハンバーガーメニュー -->
+    <script src="./js/index.js"></script>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./js/gsap.js"></script>
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/scroll.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+
+
+
+</body>
+
+</html>
